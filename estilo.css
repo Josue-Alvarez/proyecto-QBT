@@ -1,0 +1,58 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+font-family: 'open sans';
+font-size: 16px;
+}
+header{
+    width: 100%;
+    position: relative;
+    height: 650px;
+    /*background:linear-gradient(to right, #009dff8f, #ec2f4ba6),*/
+    /* url("imagenqg.jpg")*/    
+    background: #355b7dad;  
+    /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #c06c8481, #6c5b7b96, #355b7d8e);  
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #c06c849c, #6c5b7b81, #355b7d9d),url(imagenqg.jpg); 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*background-image: url("Imagenqg.jpg");*/
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.conetenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden; 
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.enlaces{
+    background: #08f;
+    margin: 30px 0 20px 0;
+}
+.enlaces>a {
+    
+    color: 000;
+}
+
+.caja{
+    text-align: center;
+    
+}
